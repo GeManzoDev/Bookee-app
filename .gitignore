@@ -23,5 +23,5 @@ Temporary Items
 !.vscode/*.code-snippets
 .history/
 *.vsix
-dist
+
 
