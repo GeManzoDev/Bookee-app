@@ -3,7 +3,7 @@
 
 Bookee is a search engine which allows the user to search for the best books based on their favorite category.
 
-The app will fetch data from the [openlibrary]("https://openlibrary.org/developers/api") API and will then return a list of books that match the user  input.
+The app will fetch data from the [openlibrary](https://openlibrary.org/developers/api) API and will then return a list of books that match the user  input.
 
 
 
