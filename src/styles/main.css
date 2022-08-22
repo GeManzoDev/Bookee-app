@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f1de;
+  color: #3d405b;
+  font-family: 'roboto', 'sans-serif';
+}
+
+#logo-img {
+  height: 200px;
+  width: auto;
+  text-align: center;
+  border-radius: 1000px;
+  transition: height 0.5s ease;
+  cursor: pointer;
+}
+
+#logo-img:hover {
+  height: 230px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 20px;
+  color: #3d405b;
+  text-align: center;
+  font-family: 'Roboto Flex', sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: 2px 2px 0 rgba(224, 123, 95, 0.35);
+}
+
+#search-bar {
+  width: 600px;
+  text-align: center;
+  display: flex;
+  height: 5%;
+  background-color: #f2cc8f;
+  margin-top: 10rem;
+  text-align: center;
+  font-family: 'Roboto Flex', sans-serif;
+  -webkit-box-shadow: 5px 5px 23px -5px #f2cc8f;
+  -moz-box-shadow: 5px 5px 23px -5px #f2cc8f;
+  -o-box-shadow: 5px 5px 23px -5px #f2cc8f;
+  box-shadow: 5px 5px 23px -5px #f2cc8f;
+}
+
+#input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: #f2cc8f;
+  font-size: 1rem;
+  color: #3d405b;
+}
+
+#search-btn {
+  padding: 5px 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background-color: #e07a5f;
+  opacity: 0.65;
+  transition: opacity 0.2s ease-in-out;
+}
+#search-btn:hover {
+  opacity: 1;
+}
+
+.fa-search {
+  align-self: center;
+  padding: 10px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 4rem;
+}
+
+.book-item {
+  padding: 1rem;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(242, 204, 143, 0.2);
+  border-radius: 5%;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+}
+.book-details:hover {
+  box-shadow: 5px 5px 11px rgba(242, 204, 143);
+}
+
+.book-cover {
+  width: 250px;
+  height: 300px;
+}
+
+.error-message {
+  color: rgb(105, 20, 20);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: thin;
+  font-style: italic;
+  margin-top: 1rem;
+  text-align: center;
+  max-width: 80%;
+  overflow: scroll;
+}
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e07a5f;
+  font-weight: bold;
+  font-style: italic;
+}
