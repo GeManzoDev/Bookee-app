@@ -9,7 +9,7 @@ The app will fetch data from the [openlibrary]("https://openlibrary.org/develope
 
 ## Screenshots
 
-![App Screenshot](https://postimg.cc/QKxTpKQm)
+[![Schermata-2022-08-22-alle-15-53-18.png](https://i.postimg.cc/VvXWPj5x/Schermata-2022-08-22-alle-15-53-18.png)](https://postimg.cc/QKxTpKQm)
 
 
 ## Demo
